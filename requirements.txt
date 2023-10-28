@@ -1,0 +1,3 @@
+opencv-python==4.8.1
+ultralytics==8.0.199
+fiftyone==0.22.2

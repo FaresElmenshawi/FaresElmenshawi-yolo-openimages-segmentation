@@ -1,6 +1,6 @@
 # YOLO-OpenImages-Segmentation
 
-This repository provides a set of tools and scripts to download images from Google Open Images, format the dataset into YOLO format, create a YYLO configuration file, and train a YOLO model for object detection. Additionally, you can use the trained YOLO model for inference on new images.
+This repository provides a set of tools and scripts to download images from Google Open Images, format the dataset into YOLO format, create a YOLO configuration file, and train a YOLO model for object detection. Additionally, you can use the trained YOLO model for inference on new images.
 
 ## Table of Contents
 

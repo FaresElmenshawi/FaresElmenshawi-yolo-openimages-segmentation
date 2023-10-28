@@ -1,0 +1,5 @@
+names:
+- Football
+path: C:/Users/Fares/fiftyone/open-images-v7/
+train: images/train
+val: images/val

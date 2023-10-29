@@ -69,11 +69,9 @@ python download_dataset.py --dataset_dir [DATASET_DIR] --max_samples [MAX_SAMPLE
 Use the dataset_formatter.py script with the following arguments to format the dataset:
 
 ```bash
-python dataset_formatter.py --classes [CLASSES] --classes-csv [CLASSES_CSV] --working-dir [WORKING_DIR] --train-img-src [TRAIN_IMG_SRC] --train-label-src
- 
-[TRAIN_LABEL_SRC] --train-img-dist [TRAIN_IMG_DIST] --train-label-dist [TRAIN_LABEL_DIST] --val-img-src [VAL_IMG_SRC] --val-label-src [VAL_LABEL_SRC] 
-
---val-img-dist [VAL_IMG_DIST] --val-label-dist [VAL_LABEL_DIST] --val-split [VAL_SPLIT] --ignore_warnings
+python dataset_formatter.py --classes [CLASSES] --classes-csv [CLASSES_CSV] --working-dir [WORKING_DIR]  --train-img-src [TRAIN_IMG_SRC]
+--train-label-src [TRAIN_LABEL_SRC] --train-img-dist [TRAIN_IMG_DIST] --train-label-dist [TRAIN_LABEL_DIST] --val-img-src [VAL_IMG_SRC]  [VAL_LABEL_SRC] 
+--val-label-src --val-img-dist [VAL_IMG_DIST] --val-label-dist [VAL_LABEL_DIST] --val-split [VAL_SPLIT] --ignore_warnings
 ```
 
 * --classes (required): List of classes.

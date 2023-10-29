@@ -113,6 +113,21 @@ python train.py --model_path [MODEL_PATH] --data [DATA] --epochs [EPOCHS] --save
 * --batch (default: -1): Batch size (default: -1).
 * You can also provide additional keyword arguments using --train_kwargs in the format key1=value1 key2=value2 ...
 
+5. YOLOv8 Inference
+To perform inference with your YOLOv8 model, use the inference.py script with the following command-line arguments:
+
+```bash
+python train.py --model_path [MODEL_PATH] --data [DATA] --epochs [EPOCHS] --save_period [SAVE_PERIOD] --batch [BATCH] --train_kwargs [TRAIN_KWARGS]
+```
+* --src (required): Specify the input source, which can be a file path or camera index.
+* --model_path (default: 'yolov8n-seg.pt'): Path to the YOLO model.
+* --classes_path (default: 'coco.txt'): Path to the file containing class names.
+* --verbose: Enable this option to display the model's output during inference. (default: False)
+* --conf (default: 0.3): Set the confidence threshold to initiate detection and segmentation.
+* --no_masks: Don't draw segmentation masks (default: False).
+* --no_bboxes: Don't draw bounding boxes (default: False).
+
+
 ## Credits
 
 This project utilizes the following libraries:

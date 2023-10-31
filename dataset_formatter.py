@@ -2,7 +2,7 @@ import argparse
 import os
 
 from dataset_utils.format_files import format_directory, join_if_not_none
-from dataset_utils.format_dataset import create_dataset
+from dataset_utils.dataset_processing import create_dataset
 from dataset_utils.create_classes import extract_classes
 
 
